@@ -3,9 +3,9 @@ import Navbar from "./Navbar"
 import React from 'react';
 
 const Layout = (props) => {
-    let title = document.getElementById('titled');
     
     function movered() {   
+        const title = document.getElementById('titled');
         title.style.color =  "red";
         title.style.transition =  "2s";
         title.style.transform =  "translateX(200px)";
