@@ -2,15 +2,9 @@ import Head from 'next/head'
 import Navbar from "./Navbar"
 import React from 'react';
 
+import movered from '../assets/js/movered'
+
 const Layout = (props) => {
-    
-    function movered() {   
-        const title = document.getElementById('titled');
-        title.style.color =  "red";
-        title.style.transition =  "2s";
-        title.style.transform =  "translateX(200px)";
-    }      
-    
     return (
         <div>
             <Head>
