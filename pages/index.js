@@ -6,7 +6,11 @@ import Fetch from 'isomorphic-unfetch'
 const Index = (props) => (
     <Layout>
         <div>
-            <h1>Welcome to BitzPrice</h1>
+            <h1>Welcome to NetCoins</h1>
+            <div className="row justify-content-center mt-4 mb-4">
+                <h4 id="titled">Bitcoins currency checker</h4   >
+                <button className="ml-3" onClick={() => movered()}>movered</button>
+            </div>
             <Prices currency={props.currency}/>
         </div>
     </Layout>
